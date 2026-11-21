@@ -1,0 +1,168 @@
+/* .chat{
+    background-color: aliceblue;
+}
+
+body {
+    margin-left: 20px;
+}
+
+.chat {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    display: inline-block;
+}
+
+.msg {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+} */
+
+
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9edef;
+    color: #111b21;
+    padding: 30px;
+}
+
+/* Main Heading */
+h3 {
+    text-align: center;
+    color: #075e54;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* Buttons */
+button {
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #128c7e;
+    transform: translateY(-2px);
+}
+
+/* New Chat Button */
+body > form {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Chat Card */
+.chat {
+    background-color: white;
+    max-width: 650px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #25d366;
+}
+
+/* Sender and Receiver */
+.chat p {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.chat i {
+    color: #075e54;
+    font-weight: bold;
+}
+
+/* Message Box */
+.msg {
+    background-color: #dcf8c6;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.msg p {
+    color: #303030;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* Edit Button */
+.msg button {
+    background-color: #075e54;
+    margin-top: 10px;
+}
+
+.msg button:hover {
+    background-color: #128c7e;
+}
+
+/* Divider */
+.chat hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 15px 0;
+}
+
+/* Delete Button */
+.chat > form button {
+    background-color: #e53935;
+}
+
+.chat > form button:hover {
+    background-color: #c62828;
+}
+
+/* Forms and Inputs */
+textarea,
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+textarea:focus,
+input:focus {
+    border-color: #25d366;
+}
+
+/* Edit Page */
+body > form textarea {
+    max-width: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .chat {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 23px;
+    }
+}
